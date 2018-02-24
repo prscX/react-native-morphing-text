@@ -1,0 +1,5 @@
+rootProject.name = 'Example'
+include ':react-native-morphing-text'
+project(':react-native-morphing-text').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-morphing-text/android')
+
+include ':app'
