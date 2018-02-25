@@ -33,7 +33,9 @@ export default class App extends Component<Props> {
   render() {
     return <View style={styles.container}>
         <Text>Text 1</Text>
-        <RNMorphingText effect={"scale"} width={100} height={100} color={'#2772ae'} >{this.state.value}</RNMorphingText>
+        <RNMorphingText effect={"scale"} width={100} height={100} size={20} color={"#2772ae"}>
+          {this.state.value}
+        </RNMorphingText>
         <Text>Text 2</Text>
       </View>;
   }
