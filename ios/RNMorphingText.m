@@ -44,6 +44,9 @@ RCT_CUSTOM_VIEW_PROPERTY(value, NSString *, LTMorphingLabel) {
     view.text = json;
 }
 
+RCT_CUSTOM_VIEW_PROPERTY(size, NSNumber *, LTMorphingLabel) {
+    [view setFont:[UIFont systemFontOfSize: [json integerValue]]];
+}
 
 + (UIColor *) colorFromHexCode:(NSString *)hexString {
     NSString *cleanString = [hexString stringByReplacingOccurrencesOfString:@"#" withString:@""];
