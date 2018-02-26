@@ -54,12 +54,31 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
                 textView = new FallTextView(activity);
             } else if (effect.equalsIgnoreCase("line")) {
                 textView = new LineTextView(activity);
+
+                ((LineTextView) textView).setAnimationDuration(props.getInt("animationDuration"));
+                ((LineTextView) textView).setLineColor(Color.parseColor(props.getString("lineColor")));
+                ((LineTextView) textView).setLineWidth(props.getInt("lineWidth"));
             } else if (effect.equalsIgnoreCase("typer")) {
                 textView = new TyperTextView(activity);
+
+                ((TyperTextView) textView).setTyperSpeed(props.getInt("typerSpeed"));
+                ((TyperTextView) textView).setCharIncrease(props.getInt("charIncrease"));
             } else if (effect.equalsIgnoreCase("rainbow")) {
                 textView = new RainbowTextView(activity);
+
+                ((RainbowTextView) textView).setColorSpace((float) props.getInt("colorSpace"));
+                ((RainbowTextView) textView).setColorSpeed((float) props.getInt("colorSpeed"));
+
+                int[] colors = new int[props.getArray("color").size()];
+                for (int i = 0;i < colors.length;i++) {
+                    colors[i] = Color.parseColor(props.getArray("color").getString(i));
+                }
+
+                ((RainbowTextView) textView).setColors(colors);
             } else if (effect.equalsIgnoreCase("fade")) {
                 textView = new FadeTextView(activity);
+
+                ((FadeTextView) textView).setAnimationDuration(props.getInt("animationDuration"));
             } else {
                 textView = new ScaleTextView(activity);
             }

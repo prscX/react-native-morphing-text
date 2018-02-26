@@ -16,7 +16,7 @@ class RNMorphingText extends Component {
     Line: "line",
     Typer: "typer",
     Rainbow: "rainbow",
-    Fade: "Fade"
+    Fade: "fade"
   }
 
   render() {
@@ -38,7 +38,14 @@ class RNMorphingText extends Component {
                     value: JSON.stringify(this.props.children),
                     effect: this.props.effect,
                     color: this.props.color,
-                    size: this.props.size
+                    colorSpace: this.props.colorSpace,
+                    colorSpeed: this.props.colorSpeed,
+                    typerSpeed: this.props.typerSpeed,
+                    charIncrease: this.props.charIncrease,
+                    size: this.props.size,
+                    animationDuration: this.props.size,
+                    lineColor: this.props.lineColor,
+                    lineWidth: this.props.lineWidth
                 }}
             />
         );
@@ -48,13 +55,21 @@ class RNMorphingText extends Component {
 
 RNMorphingText.propTypes = {
   ...ViewPropTypes,
-  
+
   value: PropTypes.string,
   effect: PropTypes.string,
 
-  color: PropTypes.string,
+  color: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+  colorSpace: PropTypes.string,
+  colorSpeed: PropTypes.string,
   size: PropTypes.number,
-  props: PropTypes.object
+  typerSpeed: PropTypes.number,
+  charIncrease: PropTypes.number,
+  props: PropTypes.object,
+
+  animationDuration: PropTypes.number,
+  lineColor: PropTypes.string,
+  lineWidth: PropTypes.number
 };
 
 RNMorphingText.defaultProps = {
@@ -62,10 +77,17 @@ RNMorphingText.defaultProps = {
   effect: "scale",
   size: 12,
 
-  width: '100%',
-  height: '100%',
+  width: "100%",
+  height: "100%",
 
-  color: '#000000'
+  color: "#000000",
+  colorSpace: 150,
+  colorSpeed: 5,
+  typerSpeed: 100,
+  charIncrease: 2,
+  animationDuration: 3000,
+  lineColor: "#1367bc",
+  lineWidth: 4
 };
 
 const MorphingText = requireNativeComponent(
