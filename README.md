@@ -198,11 +198,17 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 
 ## Other Contributions
 
+<p align="center">
+
 | [awesome-react-native-native-modules](https://github.com/prscX/awesome-react-native-native-modules)              |
 | ----------------- |
 | <img src="https://github.com/prscX/awesome-react-native-native-modules/raw/master/assets/hero.png" width="600" height="300" />                  |
 
+
 | [react-native-spruce](https://github.com/prscX/react-native-spruce)              |
 | ----------------- |
 | <img src="https://github.com/willowtreeapps/spruce-ios/raw/master/imgs/extensibility-tests.gif" width="600" height="300" />                  |
+
+</p>
+
 
