@@ -46,7 +46,6 @@
 </p>
 
 
-
 <p align="center">
   <a href="https://www.npmjs.com/package/react-native-morphing-text"><img src="http://img.shields.io/npm/v/react-native-morphing-text.svg?style=flat" /></a>
   <a href="https://github.com/prscX/react-native-morphing-text/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" /></a>
@@ -78,4 +77,28 @@ import RNMorphingText from 'react-native-morphing-text';
 
 ```
 
+## Props
 
+- **Scale** (iOS, Android)
+
+
+
+- **Evaporate** (iOS)
+
+- **Fall**
+
+- **Pixelate**
+
+- **Sparkle**
+
+- **Burn**
+
+- **Anvil**
+
+- **Line**
+
+- **Typer**
+
+- **Ranbow**
+
+- **Fade**
