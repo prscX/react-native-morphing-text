@@ -240,7 +240,7 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 
 | [react-native-download-button](https://github.com/prscX/react-native-download-button)             |
 | ----------------- |
-| <img src="https://github.com/fenjuly/ArrowDownloadButton/raw/master/screenshots/arrowdownloadbutton.gif" width="600" height="300" />                  |
+| <img src="https://github.com/fenjuly/ArrowDownloadButton/raw/master/screenshots/arrowdownloadbutton.gif" width="600" height="600" />                  |
 
 
 | [react-native-siri-wave-view](https://github.com/prscX/react-native-siri-wave-view)             |
@@ -260,7 +260,7 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 
 |  [react-native-about-libraries](https://github.com/prscX/react-native-about-libraries)             |
 | ----------------- |
-| <img src="https://github.com/prscX/react-native-about-libraries/raw/master/hero.png" width="600" height="300" />                  |
+| <img src="https://github.com/prscX/react-native-about-libraries/raw/master/hero.png" width="600" height="600" />                  |
 
 
 
