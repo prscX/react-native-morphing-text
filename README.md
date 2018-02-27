@@ -1,5 +1,5 @@
 
-<p align="center"><b><i><u>Scale</u></i></b>
+<p align="center"><b><i>Scale</i></b>
 <br/><img src="https://cloud.githubusercontent.com/assets/219689/3491822/96bf5de6-059d-11e4-9826-a6f82025d1af.gif" width="300" height="70" alt="LTMorphingLabel"/>
 <p>
 
@@ -28,6 +28,23 @@
 <p align="center"><b><i>Anvil</i></b>
 <br/><img src="https://cloud.githubusercontent.com/assets/219689/3594949/815cd3e8-0caa-11e4-9738-278a9c959478.gif" width="300" height="70" alt="LTMorphingLabel-Anvil"/>
 </p>
+
+<p align="center"><b><i>Line</i></b>
+<br/><img src="https://github.com/hanks-zyh/HTextView/blob/master/screenshot/demo7.gif" width="300" height="70" />
+</p>
+
+<p align="center"><b><i>Typer</i></b>
+<br/><img src="https://github.com/hanks-zyh/HTextView/blob/master/screenshot/typer.gif" width="300" height="70" />
+</p>
+
+<p align="center"><b><i>Ranbow</i></b>
+<br/><img src="https://github.com/hanks-zyh/HTextView/blob/master/screenshot/rainbow.gif" width="300" height="70" />
+</p>
+
+<p align="center"><b><i>Fade</i></b>
+<br/><img src="https://github.com/hanks-zyh/HTextView/blob/master/screenshot/fade.gif" width="300" height="70" />
+</p>
+
 
 
 <p align="center">
