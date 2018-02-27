@@ -200,4 +200,4 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 
 | [awesome-react-native-native-modules](https://github.com/prscX/awesome-react-native-native-modules)              |
 | ----------------- |
-| <img src="https://github.com/prscX/awesome-react-native-native-modules/raw/master/assets/hero.png">                  |
+| <img src="https://github.com/prscX/awesome-react-native-native-modules/raw/master/assets/hero.png" width="600" height="400" />                  |
