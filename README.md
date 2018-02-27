@@ -195,3 +195,9 @@ Contributions are welcome and are greatly appreciated! Every little bit helps, a
 This library is provided under the MIT License.
 
 RNMorphingText @ Pranav Raj Singh Chauhan
+
+## Other Contributions
+
+| [awesome-react-native-native-modules](https://github.com/prscX/awesome-react-native-native-modules)              |
+| ----------------- |
+| <img src="https://github.com/prscX/awesome-react-native-native-modules/raw/master/assets/hero.png">                  |
