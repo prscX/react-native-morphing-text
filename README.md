@@ -67,6 +67,11 @@ Before we dive into on how to use this library. We would like to thank all the c
 
 - **iOS**
 
+Add `LTMorphingLabel` in Embedded Binaries & Linked Frameworks and Libraries. You can find this library from below path:
+
+`node_modules/react-native-morphing-text/ios/LTMorphingLabel/LTMorphingLabelDemo.xcodeproj`
+
+<img src="./assets/setup.png" />
 
 ## Usage
 
