@@ -1,5 +1,5 @@
 
-<p align="center"><b><i>Scale</i></b>
+<p align="center"><b><i><font color="#8298af">Scale</font></i></b>
 <br/><img src="https://cloud.githubusercontent.com/assets/219689/3491822/96bf5de6-059d-11e4-9826-a6f82025d1af.gif" width="300" height="70" alt="LTMorphingLabel"/>
 <p>
 
