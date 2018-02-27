@@ -216,3 +216,8 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 | [react-native-bottom-action-sheet](https://github.com/prscX/react-native-bottom-action-sheet)              |
 | ----------------- |
 | <img src="https://github.com/rubensousa/BottomSheetBuilder/raw/master/screens/normal_demo.gif" width="600" height="600" />                  |
+
+
+| [react-native-popover-menu](https://github.com/prscX/react-native-popover-menu)             |
+| ----------------- |
+| <img src="https://github.com/zawadz88/MaterialPopupMenu/raw/master/art/components_menus.png" width="600" height="300" />                  |
