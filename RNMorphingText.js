@@ -60,8 +60,8 @@ RNMorphingText.propTypes = {
   effect: PropTypes.string,
 
   color: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
-  colorSpace: PropTypes.string,
-  colorSpeed: PropTypes.string,
+  colorSpace: PropTypes.number,
+  colorSpeed: PropTypes.number,
   size: PropTypes.number,
   typerSpeed: PropTypes.number,
   charIncrease: PropTypes.number,
