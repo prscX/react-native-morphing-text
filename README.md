@@ -79,26 +79,26 @@ import RNMorphingText from 'react-native-morphing-text';
 
 ## Props
 
-- **Scale** (iOS, Android)
+- **Scale: ** (iOS, Android) - Default
 
 
 
-- **Evaporate** (iOS)
+- **Evaporate: ** (iOS, Android)
 
-- **Fall**
+- **Fall: ** (iOS, Android)
 
-- **Pixelate**
+- **Pixelate: ** (iOS)
 
-- **Sparkle**
+- **Sparkle: ** (iOS)
 
-- **Burn**
+- **Burn: ** (iOS)
 
-- **Anvil**
+- **Anvil: ** (iOS)
 
-- **Line**
+- **Line: ** (Android)
 
-- **Typer**
+- **Typer: ** (Android)
 
-- **Ranbow**
+- **Ranbow: ** (Android)
 
-- **Fade**
+- **Fade: ** (Android)
