@@ -183,3 +183,15 @@ import RNMorphingText from 'react-native-morphing-text';
 | `effect`       | `string`     |   fade      | Scale Effect Type
 | `color`       | `string`     |   #000000      | Color of font
 | `size`       | `number`     |    12     | Size of font
+
+## Credits
+- **Android:** [hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
+- **iOS:** [lexrus/LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)
+
+## Contribution
+Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
+
+## License
+This library is provided under the MIT License.
+
+RNMorphingText @ Pranav Raj Singh Chauhan
