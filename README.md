@@ -215,4 +215,4 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 
 | [react-native-bottom-action-sheet](https://github.com/prscX/react-native-bottom-action-sheet)              |
 | ----------------- |
-| <img src="https://github.com/rubensousa/BottomSheetBuilder/raw/master/screens/normal_demo.gif" width="600" height="300" />                  |
+| <img src="https://github.com/rubensousa/BottomSheetBuilder/raw/master/screens/normal_demo.gif" width="600" height="600" />                  |
