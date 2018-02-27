@@ -1,7 +1,9 @@
 
+<div>
 <p align="center"><b>Scale</b>
 <p><img src="https://cloud.githubusercontent.com/assets/219689/3491822/96bf5de6-059d-11e4-9826-a6f82025d1af.gif" width="300" height="70" alt="LTMorphingLabel"/>
 <p>
+</div>
 
 
 <p align="center"><b>Evaporate</b>
@@ -18,7 +20,7 @@
 </p>
 
 <p align="center"><b>Sparkle</b>
-<p><img src="https://cloud.githubusercontent.com/assets/219689/3508789/31e9fafe-0690-11e4-9a76-ba3ef45eb53a.gif" width="300" height="70" alt="LTMorphingLabel-Sparkle"/>
+<img src="https://cloud.githubusercontent.com/assets/219689/3508789/31e9fafe-0690-11e4-9a76-ba3ef45eb53a.gif" width="300" height="70" alt="LTMorphingLabel-Sparkle"/>
 </p>
 
 <p align="center"><b>Burn</b>
