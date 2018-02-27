@@ -221,3 +221,8 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 | [react-native-popover-menu](https://github.com/prscX/react-native-popover-menu)             |
 | ----------------- |
 | <img src="https://github.com/zawadz88/MaterialPopupMenu/raw/master/art/components_menus.png" width="600" height="300" />                  |
+
+
+| [react-native-tooltips](https://github.com/prscX/react-native-tooltips)             |
+| ----------------- |
+| <img src="https://camo.githubusercontent.com/add1764d27026b81adb117e07a10781c9abbde1b/687474703a2f2f692e696d6775722e636f6d2f4f4e383257526c2e676966" width="600" height="300" />                  |
