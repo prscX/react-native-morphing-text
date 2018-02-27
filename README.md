@@ -210,5 +210,5 @@ RNMorphingText @ Pranav Raj Singh Chauhan
 
 | [react-native-taptargetview](https://github.com/prscX/react-native-taptargetview) & [react-native-material-showcase-ios](https://github.com/prscX/react-native-material-showcase-ios)              |
 | ----------------- |
-| <img src="https://github.com/KeepSafe/TapTargetView/raw/master/.github/video.gif" width="600" height="300" /> <br/> <img src="https://github.com/aromajoin/material-showcase-ios/raw/master/art/material-showcase.gif?raw=true" width="600" height="300" />                 |
+| <img src="https://github.com/KeepSafe/TapTargetView/raw/master/.github/video.gif" width="600" height="600" />  |
 
