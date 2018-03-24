@@ -6,10 +6,15 @@ import android.text.Layout;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.content.res.AssetManager;
+import android.graphics.Typeface;
+import android.view.Gravity;
+
 
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.ViewGroupManager;
+import com.facebook.react.views.text.ReactFontManager;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.hanks.htextview.base.HTextView;
 import com.hanks.htextview.evaporate.EvaporateTextView;
@@ -89,6 +94,14 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
 
             textView.setTextSize(props.getInt("size"));
             textView.onPreDraw();
+            if (props.getString("font") != null) {
+                Typeface typeface = ReactFontManager.getInstance().getTypeface(props.getString("font"), 0, activity.getAssets());
+                if (typeface != null) {
+                    textView.setTypeface(typeface);
+                }
+
+            }
+            textView.setGravity(Gravity.CENTER);
 
             final HTextView animateText = textView;
             frame.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
