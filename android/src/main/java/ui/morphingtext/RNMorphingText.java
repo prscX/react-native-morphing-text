@@ -40,7 +40,7 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
     }
 
     @ReactProp(name = "props")
-    public void setProps(FrameLayout frame, ReadableMap props) {
+    public void setProps(FrameLayout frame, final ReadableMap props) {
         HTextView textView = (HTextView) frame.getChildAt(0);
 
         if (textView == null) {
@@ -83,13 +83,22 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
                 textView = new ScaleTextView(activity);
             }
 
-            textView.setTextColor(Color.parseColor(props.getString("color")));
+            if (!effect.equalsIgnoreCase("rainbow")) {
+                textView.setTextColor(Color.parseColor(props.getString("color")));
+            }
+
             textView.setTextSize(props.getInt("size"));
             textView.onPreDraw();
 
-            frame.addView(textView);
+            final HTextView animateText = textView;
+            frame.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
+                @Override
+                public void onLayoutChange(View v, int left, int top, int right, int bottom, int oldLeft, int oldTop, int oldRight, int oldBottom) {
+                    animateText.animateText(props.getString("value"));
+                }
+            });
 
-            textView.animateText(props.getString("value"));
+            frame.addView(textView);
         } else {
             textView.animateText(props.getString("value"));
         }
