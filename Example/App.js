@@ -34,7 +34,7 @@ export default class App extends Component<Props> {
     return <View style={styles.container}>
         <Text>Text 1</Text>
         <RNMorphingText effect={"scale"} width={100} height={100} size={20} color={"#2772ae"}>
-          {this.state.value}
+          {this.state.value.toString()}
         </RNMorphingText>
         <Text>Text 2</Text>
       </View>;
