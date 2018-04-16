@@ -1,6 +1,6 @@
 {
     "name": "react-native-morphing-text",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "React Native: Native Morphing Text",
     "main": "RNMorphingText.js",
     "scripts": {
