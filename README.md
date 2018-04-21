@@ -75,7 +75,7 @@ A Morphing React Native Text View. This library is a RN Bridge wrapper around [l
 
     <img src="./assets/setup.png" />
 
-  - Please Enable: `Build Settings > Build Options > Always Embed Swift Standard Libraries" to true`
+  - Please Enable: `Build Settings > Build Options > Always Embed Swift Standard Libraries` to `true`
 
 ## Usage
 
