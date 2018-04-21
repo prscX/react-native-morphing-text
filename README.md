@@ -63,13 +63,19 @@ A Morphing React Native Text View. This library is a RN Bridge wrapper around [l
 
 `$ react-native link react-native-morphing-text`
 
+- **Android**
+
+> This library is supported Android SDK 25 > above
+
 - **iOS**
 
-Add `LTMorphingLabel` in Embedded Binaries & Linked Frameworks and Libraries. You can find this library from below path:
+  - Add `LTMorphingLabel` in Embedded Binaries & Linked Frameworks and Libraries. You can find this library from below path:
 
-`node_modules/react-native-morphing-text/ios/LTMorphingLabel/LTMorphingLabelDemo.xcodeproj`
+    `node_modules/react-native-morphing-text/ios/LTMorphingLabel/LTMorphingLabelDemo.xcodeproj`
 
-<img src="./assets/setup.png" />
+    <img src="./assets/setup.png" />
+
+  - Please Enable: `Build Settings > Build Options > Always Embed Swift Standard Libraries" to true`
 
 ## Usage
 
