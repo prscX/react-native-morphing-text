@@ -101,7 +101,23 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
                 }
 
             }
-            textView.setGravity(Gravity.CENTER);
+            String textAlign = props.getString("textAlign");
+
+            if (textAlign != null) {
+                switch(textAlign) {
+                    case "left":
+                        textView.setGravity(Gravity.LEFT);
+                        break;
+                    case "right":
+                        textView.setGravity(Gravity.RIGHT);
+                        break;
+                    case "center":
+                        textView.setGravity(Gravity.CENTER);
+                        break;
+                    default:
+                        break;
+                }
+            }
 
             final HTextView animateText = textView;
             frame.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
