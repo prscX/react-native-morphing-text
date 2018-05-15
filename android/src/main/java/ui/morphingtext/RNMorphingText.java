@@ -1,6 +1,5 @@
 package ui.morphingtext;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.text.Layout;
 import android.view.View;
@@ -93,17 +92,16 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
             }
 
             textView.setTextSize(props.getInt("size"));
-            textView.onPreDraw();
-            if (props.getString("font") != null) {
-                Typeface typeface = ReactFontManager.getInstance().getTypeface(props.getString("font"), 0, activity.getAssets());
+
+            if (!props.getString("font").equalsIgnoreCase("")) {
+                Typeface typeface = ReactFontManager.getInstance().getTypeface(props.getString("font"), 0, this.reactContext.getApplicationContext().getAssets());
                 if (typeface != null) {
                     textView.setTypeface(typeface);
                 }
-
             }
-            String textAlign = props.getString("textAlign");
 
-            if (textAlign != null) {
+            String textAlign = props.getString("textAlign");
+            if (!textAlign.equalsIgnoreCase("")) {
                 switch(textAlign) {
                     case "left":
                         textView.setGravity(Gravity.LEFT);
@@ -118,6 +116,8 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
                         break;
                 }
             }
+
+            textView.onPreDraw();
 
             final HTextView animateText = textView;
             frame.addOnLayoutChangeListener(new View.OnLayoutChangeListener() {

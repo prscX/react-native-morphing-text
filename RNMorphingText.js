@@ -21,10 +21,14 @@ class RNMorphingText extends Component {
 
     animationDuration: PropTypes.number,
     lineColor: PropTypes.string,
-    lineWidth: PropTypes.number
+    lineWidth: PropTypes.number,
+    font: PropTypes.string,
+    textAlign: PropTypes.string
   };
 
   static defaultProps = {
+    font: '',
+    textAlign: '',
     value: "",
     effect: "scale",
     size: 12,
@@ -82,7 +86,9 @@ class RNMorphingText extends Component {
               size: this.props.size,
               animationDuration: this.props.size,
               lineColor: this.props.lineColor,
-              lineWidth: this.props.lineWidth
+              lineWidth: this.props.lineWidth,
+              font: this.props.font,
+              textAlign: this.props.textAlign
           }}
         />
       );
