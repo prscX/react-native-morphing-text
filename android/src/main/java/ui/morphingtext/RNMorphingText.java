@@ -24,7 +24,7 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
 
     public static final String REACT_CLASS = "RNMorphingText";
 
-    private ThemedReactContext activity;
+    private ThemedReactContext reactContext;
 
     @Override
     public String getName() {
@@ -34,7 +34,7 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
 
     @Override
     protected FrameLayout createViewInstance(final ThemedReactContext reactContext) {
-        activity = reactContext;
+        this.reactContext = reactContext;
 
         return new FrameLayout(reactContext);
     }
@@ -47,24 +47,24 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
             String effect = props.getString("effect");
 
             if (effect.equalsIgnoreCase("scale")) {
-                textView = new ScaleTextView(activity);
+                textView = new ScaleTextView(this.reactContext.getApplicationContext());
             } else if (effect.equalsIgnoreCase("evaporate")) {
-                textView = new EvaporateTextView((activity));
+                textView = new EvaporateTextView((this.reactContext.getApplicationContext()));
             } else if (effect.equalsIgnoreCase("fall")) {
-                textView = new FallTextView(activity);
+                textView = new FallTextView(this.reactContext.getApplicationContext());
             } else if (effect.equalsIgnoreCase("line")) {
-                textView = new LineTextView(activity);
+                textView = new LineTextView(this.reactContext.getApplicationContext());
 
                 ((LineTextView) textView).setAnimationDuration(props.getInt("animationDuration"));
                 ((LineTextView) textView).setLineColor(Color.parseColor(props.getString("lineColor")));
                 ((LineTextView) textView).setLineWidth(props.getInt("lineWidth"));
             } else if (effect.equalsIgnoreCase("typer")) {
-                textView = new TyperTextView(activity);
+                textView = new TyperTextView(this.reactContext.getApplicationContext());
 
                 ((TyperTextView) textView).setTyperSpeed(props.getInt("typerSpeed"));
                 ((TyperTextView) textView).setCharIncrease(props.getInt("charIncrease"));
             } else if (effect.equalsIgnoreCase("rainbow")) {
-                textView = new RainbowTextView(activity);
+                textView = new RainbowTextView(this.reactContext.getApplicationContext());
 
                 ((RainbowTextView) textView).setColorSpace((float) props.getInt("colorSpace"));
                 ((RainbowTextView) textView).setColorSpeed((float) props.getInt("colorSpeed"));
@@ -76,11 +76,11 @@ public class RNMorphingText extends ViewGroupManager<ViewGroup> {
 
                 ((RainbowTextView) textView).setColors(colors);
             } else if (effect.equalsIgnoreCase("fade")) {
-                textView = new FadeTextView(activity);
+                textView = new FadeTextView(this.reactContext.getApplicationContext());
 
                 ((FadeTextView) textView).setAnimationDuration(props.getInt("animationDuration"));
             } else {
-                textView = new ScaleTextView(activity);
+                textView = new ScaleTextView(this.reactContext.getApplicationContext());
             }
 
             if (!effect.equalsIgnoreCase("rainbow")) {

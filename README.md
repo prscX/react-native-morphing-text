@@ -65,7 +65,31 @@ A Morphing React Native Text View. This library is a RN Bridge wrapper around [l
 
 - **Android**
 
-> This library is supported Android SDK 25 > above
+Please add below snippet into your app build.gradle
+
+```
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    ...
+}
+
+
+allprojects {
+    repositories {
+        mavenLocal()
+        jcenter()
+        google()
+        ...
+    }
+}
+
+```
+
+> This library is supported Android SDK 27 > above
 
 - **iOS**
 

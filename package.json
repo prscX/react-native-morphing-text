@@ -1,6 +1,6 @@
 {
     "name": "react-native-morphing-text",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "React Native: Native Morphing Text",
     "main": "RNMorphingText.js",
     "scripts": {
@@ -18,7 +18,7 @@
     "dependencies": {
     },
     "devDependencies": {
-        "prettier-pack": "0.0.5"
+        "prettier-pack": "0.0.6"
     },
     "peerDependencies": {}
 }
