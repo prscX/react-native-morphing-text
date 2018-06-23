@@ -10,7 +10,7 @@
         "react-native"
     ],
     "author": "Pranav Raj Singh Chauhan",
-    "license": "MIT",
+    "license": "Apache License",
     "repository": {
         "type": "git",
         "url": "https://github.com/prscX/react-native-morphing-text.git"

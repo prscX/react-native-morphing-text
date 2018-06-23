@@ -1,3 +1,4 @@
+<h1 align="center">
 
 <p align="center"><b><i>Scale</i></b>
 <br/><img src="https://cloud.githubusercontent.com/assets/219689/3491822/96bf5de6-059d-11e4-9826-a6f82025d1af.gif" width="300" height="70" alt="LTMorphingLabel"/>
@@ -52,12 +53,16 @@
   <a href="https://github.com/prscX/react-native-morphing-text#License"><img src="https://img.shields.io/npm/l/react-native-morphing-text.svg?style=flat" /></a>
 </p>
 
-# React Native: Native Morphing Text
+
+    ReactNative: Native Morphing Text (Android/iOS)
+
+If this project has helped you out, please support us with a star 🌟
+</h1>
 
 A Morphing React Native Text View. This library is a RN Bridge wrapper around [lexrus/LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel) & [hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
 
 
-## Getting started
+## 📖 Getting started
 
 `$ npm install react-native-morphing-text --save`
 
@@ -101,7 +106,7 @@ allprojects {
 
   - Please Enable: `Build Settings > Build Options > Always Embed Swift Standard Libraries` to `true`
 
-## Usage
+## 💻 Usage
 
 ```javascript
 import RNMorphingText from 'react-native-morphing-text';
@@ -110,7 +115,7 @@ import RNMorphingText from 'react-native-morphing-text';
 
 ```
 
-## Props
+## 💡 Props
 
 - **Scale:** (iOS, Android) - Default
 
@@ -217,14 +222,36 @@ import RNMorphingText from 'react-native-morphing-text';
 | `color`       | `string`     |   #000000      | Color of font
 | `size`       | `number`     |    12     | Size of font
 
-## Credits
+
+## ✨ Credits
+
 - **Android:** [hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
 - **iOS:** [lexrus/LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel)
 
-## Contribution
+## 🤔 How to contribute
+Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/prscX/react-native-bottom-action-sheet/issues).
 Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
 
-## License
-This library is provided under the Apache License.
+## 💫 Where is this library used?
+If you are using this library in one of your projects, add it in this list below. ✨
 
-RNMorphingText @ Pranav Raj Singh Chauhan
+
+## 📜 License
+This library is provided under the Apache 2 License.
+
+RNMorphingText @ [prscX](https://github.com/prscX)
+
+## 💖 Support my projects
+I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously, this takes time. You can integrate and use these projects in your applications for free! You can even change the source code and redistribute (even resell it).
+
+However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+* Starring and sharing the projects you like 🚀
+* If you're feeling especially charitable, please follow [prscX](https://github.com/prscX) on GitHub.
+
+  <a href="https://www.buymeacoffee.com/prscX" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+  Thanks! ❤️
+  <br/>
+  [prscX.github.io](https://prscx.github.io)
+  <br/>
+  </ Pranav >
